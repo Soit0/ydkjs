@@ -13,3 +13,5 @@ try {
     console.error("can't log obj because it has already been collected by the garbage collector")
 }
 // Block scoping can address memory allocation issues. Here the object is collected immediatly after by the garbage collector.
+
+
