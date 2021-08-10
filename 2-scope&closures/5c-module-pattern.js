@@ -38,9 +38,9 @@ function countModule() {
 }
 
 var count = countModule()
-count.print()
+count.print() // 0
 count.increment()
-count.print()
+count.print() // 1
 
 var otherCount = countModule()
-otherCount.print()
+otherCount.print() // 0
